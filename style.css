@@ -1,0 +1,14 @@
+body { font-family: Arial, sans-serif; background-color: #f4f4f4; display: flex; justify-content: center; padding: 50px; }
+.container { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); width: 350px; }
+.input-section { display: flex; gap: 5px; margin-bottom: 20px; }
+input { flex: 1; padding: 10px; border: 1px solid #ddd; border-radius: 4px; }
+button#addBtn { padding: 10px; background: #28a745; color: white; border: none; cursor: pointer; border-radius: 4px; }
+
+ul { list-style: none; padding: 0; }
+li { background: #fff; border-bottom: 1px solid #eee; padding: 10px; display: flex; justify-content: space-between; align-items: center; }
+.completed { text-decoration: line-through; color: gray; }
+
+.actions button { margin-left: 5px; cursor: pointer; border: none; padding: 5px 8px; border-radius: 3px; }
+.done-btn { background: #ffc107; }
+.done-btn:hover { background:rgb(63, 217, 63);}
+.delete-btn { background: #dc3545; color: white; }
